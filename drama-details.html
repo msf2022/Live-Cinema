@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap.min.css.map" rel="stylesheet">
+        <link href="css/all.min.css" rel="stylesheet">
+        <link href="css/index.css" rel="stylesheet">
+        <link href="css/internal-pages.css" rel="stylesheet">
+        <link href="css/responsive.css" rel="stylesheet">
+        <title>اسم الفيلم او المسلسل</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    </head>
+<body>
+     <!-- start header -->
+     <div class="main-header sticky-top" dir="rtl">
+        <div class="heder border-bottom">
+          <div class="logo container d-flex align-items-center justify-content-between">
+            <div class="d-flex gap-2 align-items-center p-1">
+              <img src="images/site-icon.png" alt="">
+              <div class="d-flex flex-column  align-items-center">
+                <span class="fw-bolder fs-5">Live Cinema</span>
+                <span class="fw-bolder fs-5">لايـــف سينيمـــا</span>
+              </div>
+              
+            </div>
+            <div class="  align-items-center gap-2 header-search-form">
+              <div class="bg-primary rounded-pill ps-2 pe-2 pt-1 pb-1 d-flex gap-2 align-items-center">
+                <i class="fa-solid fa-magnifying-glass "></i>
+                
+                <input type="text" class="search-text bg-primary border-0 text-light" placeholder="ابحث فى لايف سينيما">
+                <span class="btn btn-light rounded-pill ps-4 pe-4 fw-bold fs-5 pt-0 pb-0 mt-1 mb-1 ">بحث</span>
+              </div>
+              <div class="bg-primary rounded-pill p-2 d-flex gap-3 pe-3 align-items-center social">
+                <a href="" class="text-light fs-5 social-icon"><i class="fa-brands fa-facebook "></i></a>
+                <a href="" class="text-light fs-5  social-icon"><i class="fa-brands fa-twitter "></i></a>
+                <a href="" class="text-light fs-5  social-icon"><i class="fa-brands fa-telegram "></i></a>
+                
+                
+                
+              </div>
+            </div>
+          </div>
+          <div>
+            <div></div>
+            <div></div>
+          </div>
+          
+        </div>
+        
+        <div >
+          <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container">
+              <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html" target="_blank" >الرئيسية</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      أفلام
+                    </a>
+                    <ul class="dropdown-menu dropdown_menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item " href="#">أفلام أجنبى</a></li>
+                      <li><a class="dropdown-item " href="#">أفلام انيمى</a></li>
+                      <li><a class="dropdown-item " href="#">أفلام تركية</a></li>
+                      <li><a class="dropdown-item " href="#">أفلام أسيوية</a></li>
+                      <li><a class="dropdown-item " href="#">أفلام هندى</a></li>
+                      <li><a class="dropdown-item " href="#">سلاسل الأفلام</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     مسلسلات
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item " href="#">مسلسلات أجنبى</a></li>
+                      <li><a class="dropdown-item " href="#">مسلسلات انيمي</a></li>
+                      <li><a class="dropdown-item " href="#">مسلسلات تركى</a></li>
+                      <li><a class="dropdown-item " href="#">مسلسلات اسيوى</a></li>
+                      <li><a class="dropdown-item " href="#">مسلسلات هندية</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">برامج تليفزيونية</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">عروض مصارعة</a>
+                  </li>
+                  
+                </ul>
+                
+              </div>
+              <div class="d-flex gap-3 align-items-center">
+                <div class="border border-2 border-primary rounded-pill pt-1 pb-0 ps-2 pe-2 text-primary premium">
+                  <a href="" class="text-decoration-none">
+                    <i class="fa-solid fa-star pb-1"></i>
+                    <span class="fs-5 fw-bold">العضوية المميزة</span>
+                  </a>
+                  
+                </div>
+                
+                <a href="" class="btn btn-primary rounded-pill pt-1 pb-1 ps-3 pe-3 fs-5 fw-bold text-light login-btn">تسجيل الدخول</a>
+              </div>
+              
+            </div>
+          </nav>
+          
+        </div>
+        
+            
+        </div>
+       <!-- end header -->
+        
+<!-- start page content -->
+  <!-- start breadcrump  -->
+    <section class="container mt-3 p-0">
+        <div class="breadcramb ">
+          <div class="breadcramb-item">
+            <i class="fa-solid fa-house"></i>
+            <a href="index.html" target="_blank" >
+              الرئيسية
+            </a>
+          </div>
+          <div class="breadcramb-item">
+            <i class="fa-solid fa-arrow-left"></i>
+            <a href="index.html" target="_blank" >
+              
+              مسلسلات اجنبى
+            </a>
+          </div>
+          <div class="breadcramb-item">
+            <i class="fa-solid fa-arrow-left"></i>
+            <a href="drama-details.html">
+              
+              اسم المسلسل
+            </a>
+          </div>
+          <div class="breadcramb-item">
+            <i class="fa-solid fa-arrow-left"></i>
+            <a href="seasons.html" target="_blank" >
+
+              اسم المسلسل ورقم الموسم
+            </a>
+          </div>
+          <div class="breadcramb-item">
+            <i class="fa-solid fa-arrow-left"></i>
+            <a href="epsoids.html" target="_blank" >
+              
+              اسم المسلسل ورقم الموسم ورقم الحلقة
+            </a>
+          </div>
+         
+          
+
+          
+          
+          
+        </div>
+
+    </section>
+  <!-- end breadcrump  -->
+
+  <!-- start section details -->
+
+<section class="details mt-5 mb-5 rounded-3">
+  <div class="container d-flex gap-3 details-content rounded-3 ">
+    
+
+    <div class="bromo d-flex flex-column gap-3 mb-3">
+      <a href="" class="image position-relative">
+        <img src="images/مسلسل1.jpg" alt="">
+        <a href="show-room-drama.html" class="trailer ">
+          <span class="icon display"> مشاهدة التريلر</span>
+        </a>
+      </a>
+      <div class="d-flex gap-2 evaluation">
+        <div class="rating">
+          <span class="icon star">6.6</span>
+          <span>IMDb</span>
+        </div>
+        <a href="index.html" class="see-later">المشاهدة لاحقا</a>
+      </div>
+    </div>
+
+
+    <div class="details-data d-flex flex-column gap-2 position-relative">
+      <div class=" sd-buttons p-2">
+        <div class="h-50 bg-primary rounded-3">
+          <a href="show-room-drama.html" target="_blank" class="show-button ">
+            
+            <span class="icon play-now">مشاهدة الان</span>
+          </a>
+        </div>
+        <div class="bg-info h-50 rounded-3">
+          <a href="download.html" target="_blank" class="download-button ">
+            
+            <span class="icon download-now">تحميل الان</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="mt-2 description">
+        <h2 class="text-light fs-5 fw-bold  text-wrap"> مسلسل الب ارسلان الموسم الثاني الحلقة 1 الاولي مترجمة</h2>
+        <div class=" bg-special" >
+          <span class="text-info fw-bold fs-5">قصة العرض</span>
+          <p  class="text-white-50 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores corrupti totam provident harum reprehenderit corporis neque ratione quasi magni maxime, tenetur eos voluptatem temporibus impedit veniam. Aliquid dolores vel pariatur!</p>
+        </div>
+      </div>
+
+      <div class="d-flex flex-column gap-2">
+        <div class="d-flex gap-2">
+          <div class="bg-primary rounded pt-1 pb-1 ps-3 pe-3 text-light fs-6 fw-bold">
+           
+            <span class="icon tag">الجودة</span>
+          </div>
+          <span class="bg-info rounded pt-1 pb-1 ps-2 pe-2 text-light fs-7 fw-bold">1080p WEB-DL</span>
+          <span class="bg-info rounded pt-1 pb-1 ps-2 pe-2 text-light fs-7 fw-bold">720p WEB-DL</span>
+          <span class="bg-info rounded pt-1 pb-1 ps-2 pe-2 text-light fs-7 fw-bold">480p WEB-DL</span>
+          <span class="bg-info rounded pt-1 pb-1 ps-2 pe-2 text-light fs-7 fw-bold">360p WEB-DL</span>
+        </div>
+        <div class="d-flex gap-5">
+          <div class="d-flex gap-2">
+            <div class="bg-primary rounded pt-1 pb-1 ps-3 pe-3 text-light fs-6 fw-bold" >
+              
+              <span class="icon align">القسم</span>
+            </div>
+            <span class="bg-info rounded pt-1 pb-1 ps-2 pe-2 text-light fs-7 fw-bold">مسلسلات أجنبى</span>
+          </div>
+          <div class="d-flex gap-2">
+            <div class="bg-primary rounded pt-1 pb-1 ps-3 pe-3 text-light fs-6 fw-bold">
+              
+              <span class="icon calender">السنة</span>
+            </div>
+            <span class="bg-info rounded pt-1 pb-1 ps-2 pe-2 text-light fs-7 fw-bold">2022</span>
+          </div>
+        </div>
+        <div class="d-flex gap-5">
+          <div class="d-flex gap-2">
+            <div class="bg-primary rounded pt-1 pb-1 ps-3 pe-3 text-light fs-6 fw-bold">
+              
+              <span class="icon earth">الدولة</span>
+            </div>
+            <span class="bg-info rounded pt-1 pb-1 ps-2 pe-2 text-light fs-7 fw-bold">مصر</span>
+          </div>
+          <div class="d-flex gap-2">
+            <div class="bg-primary rounded pt-1 pb-1 ps-3 pe-3 text-light fs-6 fw-bold">
+              
+              <span class="icon lang">اللغة</span>
+            </div>
+            <span class="bg-info rounded pt-1 pb-1 ps-2 pe-2 text-light fs-7 fw-bold">العربية</span>
+          </div>
+        </div>
+        <div class="d-flex gap-2">
+          <div class="bg-primary rounded pt-1 pb-1 ps-3 pe-3 text-light fs-6 fw-bold">
+            
+            <span class="icon tag">النوع</span>
+          </div>
+          <span class="bg-info rounded pt-1 pb-1 ps-2 pe-2 text-light fs-7 fw-bold">اكشن</span>
+          <span class="bg-info rounded pt-1 pb-1 ps-2 pe-2 text-light fs-7 fw-bold">دراما</span>
+          <span class="bg-info rounded pt-1 pb-1 ps-2 pe-2 text-light fs-7 fw-bold">مغامرة</span>
+        </div>
+      </div>
+
+      <div class="bg-special short-link d-flex gap-3 align-items-center">
+        <span class="text-light">الرابط المختصر:</span>
+        <a href="" class="text-white-50 bg-dark bg-gradient rounded-pill p-1">http/hkjhkjdsfhkdsjfhkdh</a>
+        <span class="icon copy text-light "data-bs-toggle="tooltip" data-bs-placement="top" title="copy"></span>
+      </div>
+
+      <div class="row ">
+        <div class="col-md-4 col-sm-6 col-xs-12 ">
+          <div class="bg-primary text-light fs-5 fw-bold text-center">
+           
+            <span class="icon user-tie">الممثين</span>
+          </div>
+          <ul class="list-unstyled bg-special-dark p-2 text-white-50 overflow-auto cast">
+            <li class="icon circle">fgdfgdfg</li>
+            <li class="icon circle">gdfgdfgfd</li>
+            <li class="icon circle">gdfgdfg</li>
+            <li class="icon circle">fgdfgdf</li>
+            <li class="icon circle">fdgdfgfd</li>
+            <li class="icon circle">gdfgdfg</li>
+            <li class="icon circle">fgdfgdf</li>
+            <li class="icon circle">fdgdfgfd</li>
+            <li class="icon circle">gdfgdfg</li>
+            <li class="icon circle">fgdfgdf</li>
+            <li class="icon circle">fdgdfgfd</li>
+          </ul>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12 ">
+          <div class="bg-primary text-light fs-5 fw-bold text-center">
+            
+            <span class="icon users">تأليف</span>
+          </div>
+          <ul class="list-unstyled bg-special-dark p-2 text-white-50 overflow-auto cast">
+            <li class="icon circle">gfdgdfg</li>
+            <li class="icon circle">dfgfd</li>
+            <li class="icon circle">gdfgdfg</li>
+            <li class="icon circle">gfdgdf</li>
+            <li class="icon circle">fdgdfgfd</li>
+          </ul>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12 ">
+          <div class="bg-primary text-light fs-5 fw-bold text-center">
+            
+            <span class="icon director">اخراج</span>
+          </div>
+          <ul class="list-unstyled bg-special-dark p-2 text-white-50 overflow-auto cast">
+            <li class="icon circle">gdfgdfd</li>
+            <li class="icon circle">dfgdfgdf</li>
+            <li class="icon circle">dfgdfgf</li>
+            <li class="icon circle">gfdgfd</li>
+            <li class="icon circle">gdfgfd</li>
+          </ul>
+        </div>
+      </div>
+
+      
+    </div>
+  </div>
+</section>
+
+
+  <!-- end section details -->
+
+<!-- start section drama details -->
+
+<section class="mt-5 mb-5">
+  <div class="container">
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">
+          <span>الحلقات</span>
+          <span id="eps-count">[3]</span>
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">
+          <span>المواسم</span>
+          <span id="seas-count">[1]</span>
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">مسلسلات اخرى</button>
+      </li>
+    </ul>
+    <div class="tab-content mt-3" id="myTabContent">
+      <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+        <div class="row gap-3 media-grid">
+          <div class="eps-card d-flex flex-column gap-3 xxl-2  lg-3 md-4 sm-6 xs-12 ">
+            <a href="drama-details.html" class="image position-relative">
+              <img src="images/مسلسل1.jpg" alt="">
+              <div class="eps-num eps-n">
+                <span class=""> الحلقة</span>
+                <span>4</span>
+              </div>
+            </a>
+            
+          </div>
+          <div class="eps-card d-flex flex-column gap-3 xxl-2  lg-3 md-4 sm-6 xs-12 ">
+            <a href="drama-details.html" class="image position-relative">
+              <img src="images/مسلسل1.jpg" alt="">
+              <div class="eps-num eps-n">
+                <span class=""> الحلقة</span>
+                <span>3</span>
+              </div>
+            </a>
+            
+          </div>
+
+          <div class="eps-card d-flex flex-column gap-3 xxl-2  lg-3 md-4 sm-6 xs-12">
+            <a href="drama-details.html" class="image position-relative">
+              <img src="images/مسلسل1.jpg" alt="">
+              <div class="eps-num eps-n">
+                <span class=""> الحلقة</span>
+                <span>2</span>
+              </div>
+            </a>
+            
+          </div>
+
+          <div class="eps-card d-flex flex-column gap-3 xxl-2  lg-3 md-4 sm-6 xs-12">
+            <a href="drama-details.html" class="image position-relative">
+              <img src="images/مسلسل1.jpg" alt="">
+              <div class="eps-num eps-n">
+                <span class=""> الحلقة</span>
+                <span>1</span>
+              </div>
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+        <div class="row gap-3 media-grid">
+          <div class="eps-card d-flex flex-column gap-3 xxl-2  lg-3 md-4 sm-6 xs-12 ">
+            <a href="seasons.html" target="_blank" class="image position-relative">
+              <img src="images/مسلسل1.jpg" alt="">
+              <div class="eps-num seas-num">
+                <span class=""> الموسم</span>
+                <span>4</span>
+              </div>
+            </a>
+            
+          </div>
+          <div class="eps-card d-flex flex-column gap-3 xxl-2  lg-3 md-4 sm-6 xs-12 ">
+            <a href="seasons.html" target="_blank" class="image position-relative">
+              <img src="images/مسلسل1.jpg" alt="">
+              <div class="eps-num seas-num">
+                <span class=""> الموسم</span>
+                <span>3</span>
+              </div>
+            </a>
+            
+          </div>
+
+          <div class="eps-card d-flex flex-column gap-3 xxl-2  lg-3 md-4 sm-6 xs-12">
+            <a href="seasons.html" target="_blank"  class="image position-relative">
+              <img src="images/مسلسل1.jpg" alt="">
+              <div class="eps-num seas-num">
+                <span class=""> الموسم</span>
+                <span>2</span>
+              </div>
+            </a>
+            
+          </div>
+
+          <div class="eps-card d-flex flex-column gap-3 xxl-2  lg-3 md-4 sm-6 xs-12">
+            <a href="seasons.html" target="_blank"  class="image position-relative">
+              <img src="images/مسلسل1.jpg" alt="">
+              <div class="eps-num seas-num">
+                <span class=""> الموسم</span>
+                <span>1</span>
+              </div>
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+        <div class="row gap-3 media-grid">
+          <div class="card-content xxl-2  lg-3 md-4 sm-6 xs-12">
+          
+            <img src="images/مسلسل1.jpg" alt="">
+            <div class="ctegory">
+              <span class="category-type">مسلسلات</span>
+              <span>أجنبى</span>
+            </div>
+            <div class="rate">
+              <i class="fa-solid fa-star"></i>
+              <span>6.5</span>
+            </div>
+            <div class="type">
+              <span class="type-item">أكشن</span>
+              <span class="type-item">دراما</span>
+              <span class="type-item">مغامرة</span>
+            </div>
+            <div class="epsoid-block">
+              <span>الحلقة</span>
+              <span>2</span>
+            </div>
+            <a href="drama-details.html" target="_blank" class="play">
+              <i class="fa-regular fa-circle-play"></i>
+            </a>
+            <a href="drama-details.html" target="_blank" class="name">
+              مسلسل The Lord of the Rings: The Rings of Power الموسم الاول الحلقة 4 مترجمة
+            </a>
+          </div>
+  
+         
+  
+          <div class="card-content xxl-2  lg-3 md-4 sm-6 xs-12">
+            <img src="images/مسلسل2.jpg" alt="">
+            <div class="ctegory">
+              <span class="category-type">مسلسلات</span>
+              <span>تركى</span>
+            </div>
+            <div class="rate">
+              <i class="fa-solid fa-star"></i>
+              <span>9.5</span>
+            </div>
+            <div class="type">
+              <span class="type-item">أكشن</span>
+              <span class="type-item">تاريخى</span>
+              <span class="type-item">حربى</span>
+            </div>
+            <div class="epsoid-block">
+              <span>الحلقة</span>
+              <span>2</span>
+            </div>
+            <a href="drama-details.html" target="_blank" class="play">
+              <i class="fa-regular fa-circle-play"></i>
+            </a>
+            <a href="drama-details.html" target="_blank" class="name">
+              مسلسل الب ارسلان الموسم الثاني الحلقة 1 الاولي مترجمة
+            </a>
+          </div>
+  
+          
+  
+          <div class="card-content xxl-2  lg-3 md-4 sm-6 xs-12">
+            <img src="images/مسلسل3.jpg" alt="">
+            <div class="ctegory">
+              <span class="category-type">مسلسلات</span>
+              <span>أجنبى</span>
+            </div>
+            <div class="rate">
+              <i class="fa-solid fa-star"></i>
+              <span>9.5</span>
+            </div>
+            <div class="type">
+              <span class="type-item">أكشن</span>
+              <span class="type-item">دراما</span>
+              <span class="type-item">مغامرة</span>
+            </div>
+            <div class="epsoid-block">
+              <span>الحلقة</span>
+              <span>2</span>
+            </div>
+            <a href="drama-details.html" target="_blank" class="play">
+              <i class="fa-regular fa-circle-play"></i>
+            </a>
+            <a href="drama-details.html" target="_blank" class="name">
+              مسلسل House of the Dragon الموسم الاول الحلقة 5 الخامسة مترجمة
+            </a>
+          </div>
+
+          <div class="card-content xxl-2  lg-3 md-4 sm-6 xs-12">
+          
+            <img src="images/مسلسل1.jpg" alt="">
+            <div class="ctegory">
+              <span class="category-type">مسلسلات</span>
+              <span>أجنبى</span>
+            </div>
+            <div class="rate">
+              <i class="fa-solid fa-star"></i>
+              <span>6.5</span>
+            </div>
+            <div class="type">
+              <span class="type-item">أكشن</span>
+              <span class="type-item">دراما</span>
+              <span class="type-item">مغامرة</span>
+            </div>
+            <div class="epsoid-block">
+              <span>الحلقة</span>
+              <span>2</span>
+            </div>
+            <a href="drama-details.html" target="_blank" class="play">
+              <i class="fa-regular fa-circle-play"></i>
+            </a>
+            <a href="drama-details.html" target="_blank" class="name">
+              مسلسل The Lord of the Rings: The Rings of Power الموسم الاول الحلقة 4 مترجمة
+            </a>
+          </div>
+  
+         
+  
+          <div class="card-content xxl-2  lg-3 md-4 sm-6 xs-12">
+            <img src="images/مسلسل2.jpg" alt="">
+            <div class="ctegory">
+              <span class="category-type">مسلسلات</span>
+              <span>تركى</span>
+            </div>
+            <div class="rate">
+              <i class="fa-solid fa-star"></i>
+              <span>9.5</span>
+            </div>
+            <div class="type">
+              <span class="type-item">أكشن</span>
+              <span class="type-item">تاريخى</span>
+              <span class="type-item">حربى</span>
+            </div>
+            <div class="epsoid-block">
+              <span>الحلقة</span>
+              <span>2</span>
+            </div>
+            <a href="drama-details.html" target="_blank" class="play">
+              <i class="fa-regular fa-circle-play"></i>
+            </a>
+            <a href="drama-details.html" target="_blank" class="name">
+              مسلسل الب ارسلان الموسم الثاني الحلقة 1 الاولي مترجمة
+            </a>
+          </div>
+  
+          
+  
+          <div class="card-content xxl-2  lg-3 md-4 sm-6 xs-12">
+            <img src="images/مسلسل3.jpg" alt="">
+            <div class="ctegory">
+              <span class="category-type">مسلسلات</span>
+              <span>أجنبى</span>
+            </div>
+            <div class="rate">
+              <i class="fa-solid fa-star"></i>
+              <span>9.5</span>
+            </div>
+            <div class="type">
+              <span class="type-item">أكشن</span>
+              <span class="type-item">دراما</span>
+              <span class="type-item">مغامرة</span>
+            </div>
+            <div class="epsoid-block">
+              <span>الحلقة</span>
+              <span>2</span>
+            </div>
+            <a href="drama-details.html" target="_blank" class="play">
+              <i class="fa-regular fa-circle-play"></i>
+            </a>
+            <a href="drama-details.html" target="_blank" class="name">
+              مسلسل House of the Dragon الموسم الاول الحلقة 5 الخامسة مترجمة
+            </a>
+          </div>
+
+          <div class="card-content xxl-2  lg-3 md-4 sm-6 xs-12">
+          
+            <img src="images/مسلسل1.jpg" alt="">
+            <div class="ctegory">
+              <span class="category-type">مسلسلات</span>
+              <span>أجنبى</span>
+            </div>
+            <div class="rate">
+              <i class="fa-solid fa-star"></i>
+              <span>6.5</span>
+            </div>
+            <div class="type">
+              <span class="type-item">أكشن</span>
+              <span class="type-item">دراما</span>
+              <span class="type-item">مغامرة</span>
+            </div>
+            <div class="epsoid-block">
+              <span>الحلقة</span>
+              <span>2</span>
+            </div>
+            <a href="drama-details.html" target="_blank" class="play">
+              <i class="fa-regular fa-circle-play"></i>
+            </a>
+            <a href="drama-details.html" target="_blank" class="name">
+              مسلسل The Lord of the Rings: The Rings of Power الموسم الاول الحلقة 4 مترجمة
+            </a>
+          </div>
+  
+         
+  
+          <div class="card-content xxl-2  lg-3 md-4 sm-6 xs-12">
+            <img src="images/مسلسل2.jpg" alt="">
+            <div class="ctegory">
+              <span class="category-type">مسلسلات</span>
+              <span>تركى</span>
+            </div>
+            <div class="rate">
+              <i class="fa-solid fa-star"></i>
+              <span>9.5</span>
+            </div>
+            <div class="type">
+              <span class="type-item">أكشن</span>
+              <span class="type-item">تاريخى</span>
+              <span class="type-item">حربى</span>
+            </div>
+            <div class="epsoid-block">
+              <span>الحلقة</span>
+              <span>2</span>
+            </div>
+            <a href="drama-details.html" target="_blank" class="play">
+              <i class="fa-regular fa-circle-play"></i>
+            </a>
+            <a href="drama-details.html" target="_blank" class="name">
+              مسلسل الب ارسلان الموسم الثاني الحلقة 1 الاولي مترجمة
+            </a>
+          </div>
+  
+          
+  
+          <div class="card-content xxl-2  lg-3 md-4 sm-6 xs-12">
+            <img src="images/مسلسل3.jpg" alt="">
+            <div class="ctegory">
+              <span class="category-type">مسلسلات</span>
+              <span>أجنبى</span>
+            </div>
+            <div class="rate">
+              <i class="fa-solid fa-star"></i>
+              <span>9.5</span>
+            </div>
+            <div class="type">
+              <span class="type-item">أكشن</span>
+              <span class="type-item">دراما</span>
+              <span class="type-item">مغامرة</span>
+            </div>
+            <div class="epsoid-block">
+              <span>الحلقة</span>
+              <span>2</span>
+            </div>
+            <a href="drama-details.html" target="_blank" class="play">
+              <i class="fa-regular fa-circle-play"></i>
+            </a>
+            <a href="drama-details.html" target="_blank" class="name">
+              مسلسل House of the Dragon الموسم الاول الحلقة 5 الخامسة مترجمة
+            </a>
+          </div>
+
+          <div class="card-content xxl-2  lg-3 md-4 sm-6 xs-12">
+          
+            <img src="images/مسلسل1.jpg" alt="">
+            <div class="ctegory">
+              <span class="category-type">مسلسلات</span>
+              <span>أجنبى</span>
+            </div>
+            <div class="rate">
+              <i class="fa-solid fa-star"></i>
+              <span>6.5</span>
+            </div>
+            <div class="type">
+              <span class="type-item">أكشن</span>
+              <span class="type-item">دراما</span>
+              <span class="type-item">مغامرة</span>
+            </div>
+            <div class="epsoid-block">
+              <span>الحلقة</span>
+              <span>2</span>
+            </div>
+            <a href="drama-details.html" target="_blank" class="play">
+              <i class="fa-regular fa-circle-play"></i>
+            </a>
+            <a href="drama-details.html" target="_blank" class="name">
+              مسلسل The Lord of the Rings: The Rings of Power الموسم الاول الحلقة 4 مترجمة
+            </a>
+          </div>
+  
+         
+  
+          <div class="card-content xxl-2  lg-3 md-4 sm-6 xs-12">
+            <img src="images/مسلسل2.jpg" alt="">
+            <div class="ctegory">
+              <span class="category-type">مسلسلات</span>
+              <span>تركى</span>
+            </div>
+            <div class="rate">
+              <i class="fa-solid fa-star"></i>
+              <span>9.5</span>
+            </div>
+            <div class="type">
+              <span class="type-item">أكشن</span>
+              <span class="type-item">تاريخى</span>
+              <span class="type-item">حربى</span>
+            </div>
+            <div class="epsoid-block">
+              <span>الحلقة</span>
+              <span>2</span>
+            </div>
+            <a href="drama-details.html" target="_blank" class="play">
+              <i class="fa-regular fa-circle-play"></i>
+            </a>
+            <a href="drama-details.html" target="_blank" class="name">
+              مسلسل الب ارسلان الموسم الثاني الحلقة 1 الاولي مترجمة
+            </a>
+          </div>
+  
+          
+  
+          <div class="card-content xxl-2  lg-3 md-4 sm-6 xs-12">
+            <img src="images/مسلسل3.jpg" alt="">
+            <div class="ctegory">
+              <span class="category-type">مسلسلات</span>
+              <span>أجنبى</span>
+            </div>
+            <div class="rate">
+              <i class="fa-solid fa-star"></i>
+              <span>9.5</span>
+            </div>
+            <div class="type">
+              <span class="type-item">أكشن</span>
+              <span class="type-item">دراما</span>
+              <span class="type-item">مغامرة</span>
+            </div>
+            <div class="epsoid-block">
+              <span>الحلقة</span>
+              <span>2</span>
+            </div>
+            <a href="drama-details.html" target="_blank" class="play">
+              <i class="fa-regular fa-circle-play"></i>
+            </a>
+            <a href="drama-details.html" target="_blank" class="name">
+              مسلسل House of the Dragon الموسم الاول الحلقة 5 الخامسة مترجمة
+            </a>
+          </div>
+  
+          
+  
+         
+         
+  
+         
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- end section  drama details-->
+
+
+
+
+<!-- end page content -->
+
+         <!-- start footer -->
+
+<section class="footer ">
+    <div class="container fw-bold fs-5 text-light h-100  d-flex align-items-center justify-content-center flex-column">
+      <div class="">جميع الحقوق محفوظة لايف سينيما - تحميل ومشاهدة اون لاين © 2022</div>
+      <div class=" mt-2 w-lg-25 w-xs-50 rounded-pill h-25 bg-primary d-flex align-items-center justify-content-center">
+        <span>تصميم وبرمجة : </span>
+        <span class="fs-4 fw-bolder p-3"> .M. S. A  </span>
+      </div>
+    </div>
+  </section>
+  
+  <!-- end footer -->
+  
+  
+  
+  
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js.map"></script>
+      <script src="js/all.min.js"></script>
+      <script src="js/index.js"></script>
+      <script src="js/internalpages.js"></script>
+</body>
+</html>
